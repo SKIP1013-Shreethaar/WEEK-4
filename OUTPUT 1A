@@ -1,0 +1,14 @@
+Car Loan Calculator
+Enter car market value: 
+5000
+Enter the amount of downpayment: 
+2000
+Enter the yearly interest: 
+3.5
+Enter the number of years for loan period (years): 
+5
+Enter the loan amount: 
+2000
+Sum of interest 350.0
+Monthly loan payment 39.166666666666664
+Total loan payment 2350.0
