@@ -1,0 +1,24 @@
+Welcome to C Marts Shopping Complex, please enter the items (Maximum 3 items are allowed.)
+Please enter the total quantity of items:
+3
+Enter the price of the first item:
+150
+The price of the first item is 150.0
+Enter the quantity of the first item: 
+2
+The quantity of the first item is 2
+Enter the price of the second item:
+50
+The price of the second item is 50.0
+Enter the quantity of the second item: 
+3
+The quantity of the second item is 3
+Enter the price of the third item:
+30
+The price of the third item is 30.0
+Enter the quantity of the third item: 
+1
+The quantity of the third item is 1
+Total price is 480.0
+Discount received = 0.0
+The price to be paid is 480.0
