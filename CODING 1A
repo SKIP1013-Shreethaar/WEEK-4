@@ -1,0 +1,55 @@
+package assignment;
+import java.util.Scanner;
+
+public class Assignment1A {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int carValue;
+		int downPayment;
+		int loanAmount;
+		double interestRate;
+		int loanPeriod;
+		
+		System.out.println("Car Loan Calculator");
+		
+		System.out.println("Enter car market value: ");
+		carValue = sc.nextInt();
+		
+		System.out.println("Enter the amount of downpayment: ");
+		downPayment = sc.nextInt();
+		
+		System.out.println("Enter the yearly interest: ");
+		interestRate = sc.nextDouble();
+		
+		System.out.println("Enter the number of years for loan period (years): ");
+		loanPeriod = sc.nextInt();
+		
+		System.out.println("Enter the loan amount: ");
+		loanAmount = sc.nextInt();
+		
+		double sumOfInterest = (loanAmount*(interestRate/100)*5);
+		System.out.println(sumOfInterest);
+		
+		double monthlyPayment = ((loanAmount + sumOfInterest)/(loanPeriod*12));
+		System.out.println(monthlyPayment);
+		
+		double totalPayment = (monthlyPayment*(loanPeriod*12));
+		System.out.println(totalPayment);
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+	}
+
+}
